@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - XML-RPC client/server library
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
+Version:	1.0.2
 Release:	%mkrel 1
 License:	LGPL
 Group:		Development/PHP
@@ -100,5 +100,3 @@ fi
 %{_datadir}/pear/%{_class}/%{_subclass}/Server/CallHandler/*.php
 %{_datadir}/pear/%{_class}/%{_subclass}/Util/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
