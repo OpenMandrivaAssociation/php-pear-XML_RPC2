@@ -16,7 +16,6 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildRequires:	dos2unix
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 XML_RPC2 is a pear package providing XML_RPC client and server services. 
