@@ -6,7 +6,7 @@
 Summary:	%{_pearname} - XML-RPC client/server library
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	LGPL
 Group:		Development/PHP
 URL:		http://pear.php.net/package/XML_RPC2/
@@ -16,7 +16,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildRequires:	dos2unix
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 XML_RPC2 is a pear package providing XML_RPC client and server services. 
