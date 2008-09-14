@@ -5,8 +5,8 @@
 
 Summary:	%{_pearname} - XML-RPC client/server library
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
-Release:	%mkrel 2
+Version:	1.0.5
+Release:	%mkrel 1
 License:	LGPL
 Group:		Development/PHP
 URL:		http://pear.php.net/package/XML_RPC2/
