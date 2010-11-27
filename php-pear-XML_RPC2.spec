@@ -3,8 +3,8 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.5
-Release:	%mkrel 3
+Version:	1.0.6
+Release:	%mkrel 1
 Summary:	XML-RPC client/server library
 License:	LGPL
 Group:		Development/PHP
@@ -65,4 +65,5 @@ fi
 %files
 %defattr(-,root,root)
 %{_datadir}/pear/%{_class}
+%{_datadir}/pear/data/%{upstream_name}
 %{_datadir}/pear/packages/%{upstream_name}.xml
