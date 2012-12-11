@@ -67,3 +67,61 @@ fi
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/data/%{upstream_name}
 %{_datadir}/pear/packages/%{upstream_name}.xml
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.1.1-2mdv2012.0
++ Revision: 742308
+- fix major breakage by careless packager
+
+* Wed Dec 14 2011 Oden Eriksson <oeriksson@mandriva.com> 1.1.1-1
++ Revision: 741271
+- 1.1.1
+
+* Sat Apr 09 2011 Tomasz Pawel Gajc <tpg@mandriva.org> 1.0.8-1
++ Revision: 652038
+- update to new version 1.0.8
+
+* Sat Nov 27 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.6-1mdv2011.0
++ Revision: 602112
+- new version
+
+* Wed Nov 11 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.5-3mdv2010.1
++ Revision: 464960
+- spec cleanup
+- use pear installer
+- don't ship tests, even in documentation
+- own all directories
+- use rpm filetriggers starting from mandriva 2010.1
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 1.0.5-2mdv2010.0
++ Revision: 441762
+- rebuild
+
+* Sun Sep 14 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 1.0.5-1mdv2009.0
++ Revision: 284744
+- update to new version 1.0.5
+
+* Thu Jul 17 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0.2-2mdv2009.0
++ Revision: 237167
+- rebuild
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Fri Aug 10 2007 Tomasz Pawel Gajc <tpg@mandriva.org> 1.0.2-1mdv2008.0
++ Revision: 61016
+- new version
+
+* Fri Apr 20 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0.1-1mdv2008.0
++ Revision: 15757
+- 1.0.1
+
+
+* Wed Feb 07 2007 Tomasz Pawel Gajc <tpg@mandriva.org> 1.0.0-1mdv2007.0
++ Revision: 117277
+- Import php-pear-XML_RPC2
+
