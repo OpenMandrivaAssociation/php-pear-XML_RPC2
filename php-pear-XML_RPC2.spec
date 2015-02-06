@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.1.1
-Release:	3
+Release:	4
 Summary:	XML-RPC client/server library
 License:	LGPL
 Group:		Development/PHP
