@@ -8,7 +8,7 @@ Release:	4
 Summary:	XML-RPC client/server library
 License:	LGPL
 Group:		Development/PHP
-URL:		http://pear.php.net/package/XML_RPC2/
+URL:		https://pear.php.net/package/XML_RPC2/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post):	php-pear
 Requires(preun): php-pear
